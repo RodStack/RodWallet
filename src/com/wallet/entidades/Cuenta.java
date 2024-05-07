@@ -118,4 +118,39 @@ public class Cuenta implements Depositar, Retirar {
             System.out.println("Tu cuenta ya esta en pesos");
         }
     }
+
+	public int getNumeroCuenta() {
+		return numeroCuenta;
+	}
+
+	public void setNumeroCuenta(int numeroCuenta) {
+		this.numeroCuenta = numeroCuenta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public boolean isUSD() {
+		return USD;
+	}
+
+	public void setUSD(boolean uSD) {
+		USD = uSD;
+	}
+	
+	
+    
 }
